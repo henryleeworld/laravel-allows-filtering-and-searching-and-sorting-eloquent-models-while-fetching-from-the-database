@@ -9,7 +9,6 @@ class UsersController extends Controller
 {
     public function filter() 
     {
-        // echo '使用者筆數：' . $user = User::filter(['created_after_filter' => Carbon::yesterday()->toDateString()])->count();
-        dd(User::filter(['created_after_filter' => Carbon::yesterday()->toDateString()])->toSqlWithBindings());
+        echo User::filter(['created_after_filter' => Carbon::yesterday()->toDateString()])->toRawSql() . PHP_EOL;
     }
 }

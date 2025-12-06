@@ -1,4 +1,4 @@
-# Laravel 10 允許從資料庫取得結果時，同時篩選、搜索和排序 Eloquent 模型
+# Laravel 12 允許從資料庫取得結果時，同時篩選、搜索和排序 Eloquent 模型
 
 引入 lacodix 的 laravel-model-filter 套件來擴增允許從資料庫取得結果時，同時篩選、搜索和排序 Eloquent 模型，包含使用查詢字串進行篩選、搜索和排序的額外功能。
 
@@ -27,5 +27,5 @@ $ php artisan migrate --seed
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/171TTQr.png)
+![](https://i.imgur.com/msiDrsr.png)
 > 過濾特定時間的資料取得
